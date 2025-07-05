@@ -1,44 +1,88 @@
-# Scrooch 3 Template
+# 🎨 Scrooch 3 Modding Template
 
-Welcome to **Scrooch 3 Template** — a ready-to-use modding base for Scratch 3 projects!
-
-## What is this?
-
-Scrooch 3 Template is a **precompiled mod template** based on the `gh-pages` branch of PenguinMod, renamed and customized to be your launchpad for creating advanced Scratch 3 mods.
-
-Unlike traditional Scratch modding that requires building and compiling, this template lets you **edit the source files directly** — HTML, JavaScript, and images — with no build process needed.
-
-## Who is this for?
-
-- Users comfortable editing web source code (HTML, JS, and image assets)  
-- Those who want powerful control over Scratch 3 modding  
-- People who want to skip the complicated build tools and workflows
-
-## How to use
-
-1. **Clone or download** this repository.  
-2. **Edit** the source files (`index.html`, `js/`, `images/`, etc.) to customize your mod.  
-3. **Test** your changes locally by opening `index.html` in a browser.  
-4. When ready, **publish your mod** by enabling GitHub Pages in the repo settings and selecting the `main` branch as the source.
-
-## Requirements
-
-- Basic knowledge of HTML, JavaScript, and image file handling  
-- A GitHub account (recommended) for easy hosting with GitHub Pages  
-
-## Why use Scrooch 3 Template?
-
-- **No build steps!** Work directly with the compiled source.  
-- **Fast iteration:** Edit and test changes instantly.  
-- **Based on PenguinMod:** A solid Scratch 3 mod foundation trusted by many.  
-
-## Notes
-
-- This template is **not** for Scratch 2 or block-based modding. For easier Scratch 2 mods, consider using Scrooch 2.  
-- Keep backups of your edits! Since you work directly on source files, mistakes can happen.
+Welcome to your **Scrooch 3 Modding Template!**
+This project makes it super easy to create your own custom Scratch 3 mod — tweak visuals, logic, styles, and more — all using **GitHub Pages** and your browser.
 
 ---
 
-Feel free to open issues or contribute improvements.
+## 🚀 Getting Started
 
-Happy modding! 🎉
+1. **Fork this repo** 👉 [Click Here to Fork](https://github.com/Noahscratch493/Scrooch3-Template/fork)
+2. In your fork, go to **Settings > Pages**, and set the source to the `main` branch and the `/ (root)` folder.
+3. GitHub will give you a URL like:
+   `https://your-username.github.io/your-mod-name`
+   (This will use **whatever name you gave it** when forking!)
+
+Now you're running your own Scratch 3 mod right from the browser! 🎉
+
+---
+
+## 🖼️ Editing Images (Beginner-Friendly)
+
+If you're new to modding, start by customizing images!
+
+Look inside:
+
+* `/images/`
+* `/static/`
+
+You can change:
+
+* The Scratch logo (`scratch-logo.svg`)
+* Category icons or button images
+* Backgrounds and other UI art
+
+🧰 Tools to use:
+
+* [Photopea](https://www.photopea.com/) (works in browser)
+* Paint.NET or GIMP
+
+📝 Keep image sizes and names the same unless you know how to adjust layout.
+
+---
+
+## 💻 JavaScript Modding (Advanced)
+
+If you want to change how Scratch behaves, explore the JavaScript!
+
+* `blocks/` and `extensions/`: Add or modify block behavior
+* `gui/`: Change layout and UI logic
+* `scratch-blocks/`: Deep block rendering logic
+
+🔍 You can also open DevTools (F12) in your browser to test code on the fly.
+
+---
+
+## 🎨 CSS Styling (Advanced)
+
+You can fully restyle the Scratch interface:
+
+* Look for `.css` or `.scss` files in `gui/`
+* Customize fonts, colors, borders, and spacing
+* Use browser DevTools to preview changes instantly
+
+Try making your own custom theme — like neon, retro, or minimalistic!
+
+---
+
+## 🧱 HTML Tweaks (Advanced)
+
+Even though Scrooch 3 runs on React, the main `index.html` file is editable.
+
+Use it to:
+
+* Change the page title
+* Add a custom favicon
+* Load Google Fonts or extra scripts
+
+---
+
+## 💡 Extra Tips
+
+* Keep testing in the browser as you make changes
+* Save backups before doing big edits
+* Try creating a themed mod like **Scratch Green**, **Scratch Retro**, or **Scratch Mobile-Lite**
+
+---
+
+Made with 💙 by [Noahscratch493](https://github.com/Noahscratch493)
