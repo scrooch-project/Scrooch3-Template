@@ -26,28 +26,20 @@ Look inside:
 * `/images/`
 * `/static/`
 
-You can change:
-
-* The Scratch logo (`scratch-logo.svg`)
-* Category icons or button images
-* Backgrounds and other UI art
+You can change lots in these folders!
 
 🧰 Tools to use:
 
 * [Photopea](https://www.photopea.com/) (works in browser)
 * Paint.NET or GIMP
 
-📝 Keep image sizes and names the same unless you know how to adjust layout.
+📝 Keep image sizes and names the same unless you know how to adjust the layout.
 
 ---
 
 ## 💻 JavaScript Modding (Advanced)
 
-If you want to change how Scratch behaves, explore the JavaScript!
-
-* `blocks/` and `extensions/`: Add or modify block behavior
-* `gui/`: Change layout and UI logic
-* `scratch-blocks/`: Deep block rendering logic
+If you want to change how Scratch behaves, explore the JavaScript in /js/!
 
 🔍 You can also open DevTools (F12) in your browser to test code on the fly.
 
