@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google" value="notranslate">
     <meta name="description" content="PenguinMod is a TurboWarp mod that was made to add tons of cool stuff to allow for crazy projects." />
-    <title>Scrooch 3</title>
+    <title>PenguinMod - A mod of TurboWarp</title>
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
     
-    <link rel="manifest" href="manifest.webmanifest">
+      <link rel="manifest" href="manifest.webmanifest">
     
     <style>
       #splash {
@@ -40,47 +40,17 @@
       </noscript>
       <div id="splash-content">
         <div id="splash-spinner"></div>
-      </div>
+     </div>
     </div>
     <script>
       (function() {
         document.querySelector('#splash-content').style.display = 'block';
+        
         try {var localTheme = localStorage.getItem('tw:theme');} catch (e) {}
-        if (localTheme ? localTheme === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches)
-          document.querySelector('#splash').setAttribute('splash-theme', 'dark');
+        if (localTheme ? localTheme === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches) document.querySelector('#splash').setAttribute('splash-theme', 'dark');
+        
       })();
     </script>
-
     <div id="app"></div>
-
-    <!-- Script to remove unwanted elements -->
-    <script>
-      const classesToRemove = [
-        'button_outlined-button_1bS__',
-        'menu-bar_menu-bar-button_3IDN0',
-        'community-button_community-button_2Lo_g',
-        'menu-bar_menu-bar-item_oLDa-'
-      ];
-
-      const removeElements = () => {
-        for (const className of classesToRemove) {
-          document.querySelectorAll(`.${className}`).forEach(el => el.remove());
-        }
-      };
-
-      // Run after a delay to make sure elements exist
-      const interval = setInterval(() => {
-        removeElements();
-        if (document.querySelector('.stage-wrapper_stage-wrapper_2Fs2d')) {
-          clearInterval(interval);
-        }
-      }, 500);
-    </script>
-
-    <script src="js/vendors~addon-settings~credits~editor~embed~fullscreen~player.js"></script>
-    <script src="js/vendors~editor~embed~fullscreen~player.js"></script>
-    <script src="js/addon-settings~addons~editor~fullscreen~player.js"></script>
-    <script src="js/editor~embed~fullscreen~player.js"></script>
-    <script src="js/editor.js"></script>
-  </body>
+  <script src="js/vendors~addon-settings~credits~editor~embed~fullscreen~player.js"></script><script src="js/vendors~editor~embed~fullscreen~player.js"></script><script src="js/addon-settings~addons~editor~fullscreen~player.js"></script><script src="js/editor~embed~fullscreen~player.js"></script><script src="js/editor.js"></script></body>
 </html>
