@@ -10,8 +10,8 @@ This project makes it super easy to create your own custom Scratch 3 mod — twe
 1. **Duplicate this repo** 👉 [Click Here to Duplicate](https://github.com/new?template_name=Scrooch3-Template&template_owner=Noahscratch493&use_v2_form=false)
 2. In your new repo, go to **Settings > Pages**, and set the source to the `main` branch and the `/ (root)` folder.
 3. GitHub will give you a URL like:
-   `https://your-username.github.io/your-mod-name`
-   (This will use **whatever name you gave it** when forking!)
+   `https://your-username.github.io/your-mod-name` (If it doesn't work, try turning on GitHub Pages in Settings)
+   (This will use **whatever name you gave it** while duplicating!)
 
 Now you're running your own Scratch 3 mod right from the browser! 🎉
 
@@ -59,7 +59,7 @@ Try making your own custom theme — like neon, retro, or minimalistic!
 
 ## 🧱 HTML Tweaks (Advanced)
 
-Even though Scrooch 3 runs on React, the main `index.html` file is editable.
+Even though Scrooch 3 runs on React, the main `.html` files are editable.
 
 Use it to:
 
