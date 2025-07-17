@@ -7,7 +7,7 @@ This project makes it super easy to create your own custom Scratch 3 mod — twe
 
 ## 🚀 Getting Started
 
-1. **Duplicate this repo** 👉 [Click Here to Duplicate](https://github.com/new?template_name=Scrooch3-Template&template_owner=Noahscratch493&use_v2_form=false)
+1. **Duplicate this repo** 👉 [Click Here to Duplicate](https://github.com/new?template_name=Scrooch3-Template&template_owner=scrooch-project&use_v2_form=false)
 2. In your new repo, go to **Settings > Pages**, and set the source to the `main` branch and the `/ (root)` folder.
 3. GitHub will give you a URL like:
    `https://your-username.github.io/your-mod-name` (If it doesn't work, try turning on GitHub Pages in Settings)
