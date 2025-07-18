@@ -84,6 +84,6 @@ TurboWarp Packager
 }, 'Source Code'),
 ```
 
-4. Edit the `'text'` and the `"href"` to point to your own docs or site.
+4. Edit the names and the `"href"` to point to your own docs or site.
 
 ❗️ Do **not** delete entire JSX blocks — just update the content and URLs.
