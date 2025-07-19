@@ -80,7 +80,7 @@ TurboWarp Packager
 }, 'Embedding'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://docs.turbowarp.org/url-parameters"
 }, 'URL Parameters'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-  href: "https://github.com/TurboWarp/packager"
+  href: "https://github.com/TurboWarp/scratch-gui"
 }, 'Source Code'),
 ```
 
