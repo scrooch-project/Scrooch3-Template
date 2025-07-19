@@ -27,7 +27,7 @@ After duplicating your repository:
    https://your-username.github.io/your-mod-name
    ```
 
-If it doesn't work right away, try turning Pages off and on again, or wait a few minutes.
+Please wait a minute and then go to it, which should make it work. Every time you load your mod's site after making an update, make sure to press CTRL+SHIFT+R to ensure it has the latest version.
 
 ---
 
