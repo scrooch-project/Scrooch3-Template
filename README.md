@@ -1,6 +1,6 @@
 # 🧰 Getting Started with Scrooch 3
 
-Welcome to the **Scrooch 3 Modding Framework**! This guide will help you set up and customize your own Scratch mod powered by Scrooch.
+Welcome to the **Scrooch 3 Modding Framework**! This guide will help you set up and customise your Scratch mod powered by Scrooch.
 
 ---
 
@@ -84,6 +84,6 @@ TurboWarp Packager
 }, 'Source Code'),
 ```
 
-4. Edit the names and the `"href"` to point to your own docs or site.
+4. Edit the names and the `"href"` to point to your own docs pages or sites.
 
 ❗️ Do **not** delete entire JSX blocks — just update the content and URLs.
