@@ -87,3 +87,7 @@ TurboWarp Packager
 4. Edit the `'names'` and the `"href"` to point to your own docs pages or sites.
 
 ❗️ Do **not** delete entire JSX blocks — just update the content and URLs.
+
+---
+
+Scrooch 3 is based on [PenguinMod's gh-pages branch](https://github.com/PenguinMod/penguinmod.github.io/tree/gh-pages/)
