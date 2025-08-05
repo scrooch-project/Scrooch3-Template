@@ -40,7 +40,7 @@ You can change the look of your editor by replacing SVGs. For example:
 | `static/assets/10db5ce4c37ebd51abc46eb6840d4cfa.svg` | Stop button icon                                                        |
 | `static/assets/9525874be2b1d66bd448bf53400011a9.svg` | Green Flag icon (main UI)                                               |
 | `static/blocks-media/green-flag.svg`                 | "When Flag Clicked" block icon                                          |
-| `static/blocks-media/blue-flag.svg`                  | Alternate "When Flag Clicked" icon (used for themes or visual variants) |
+| `static/blocks-media/blue-flag.svg`                  | Keep the same as "green-flag.svg   "                                    |
 
 ---
 
