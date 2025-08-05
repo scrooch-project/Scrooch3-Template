@@ -90,4 +90,4 @@ TurboWarp Packager
 
 ---
 
-Scrooch 3 is based on [PenguinMod's gh-pages branch](https://github.com/PenguinMod/penguinmod.github.io/tree/gh-pages/)
+Scrooch 3 is based on [PenguinMod's `gh-pages` branch](https://github.com/PenguinMod/penguinmod.github.io/tree/gh-pages/)
