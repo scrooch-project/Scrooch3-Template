@@ -4,11 +4,11 @@ Welcome to the **Scrooch 3 Modding Framework**! This guide will help you set up 
 
 ---
 
-## 🧪 1. Duplicate the Template
+## 🧪 1. Clone the Template
 
 To get started, click this link:
 
-👉 [**Create Your Scrooch 3 Mod**](https://github.com/new?template_name=Scrooch3-Template&template_owner=scrooch-project&use_v2_form=false)
+👉 [**Clone Scrooch3-Template**](https://github.com/new?template_name=Scrooch3-Template&template_owner=scrooch-project&use_v2_form=false)
 
 ---
 
